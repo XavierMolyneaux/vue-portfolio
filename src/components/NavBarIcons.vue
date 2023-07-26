@@ -12,31 +12,27 @@
       </div>
   
       <div v-else-if="selectedIcon === 'gitSource'">
-        <button
-          class="border-black border-2 rounded-md p-[0.35rem]"
-          @click="window.open('https://github.com/XavierMolyneaux');"
-        >
+        <a href="https://github.com/XavierMolyneaux" target="_blank" rel="noreferrer noopener">
+        <button class="border-black border-2 rounded-md p-[0.35rem]">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             class="inline min-w-[25px] min-h-[25px]"
             width="20px"
             height="20px"
           />
-        </button>
+        </button></a>
       </div>
 
       <div v-else-if="selectedIcon === 'linkedIn'">
-        <button
-          class="border-black border-2 rounded-md p-[0.35rem]"
-          @click="window.open('https://www.linkedin.com/in/xavier-molyneaux/');"
-        >
+        <a href="https://www.linkedin.com/in/xavier-molyneaux/" target="_blank" rel="noreferrer noopener">
+        <button class="border-black border-2 rounded-md p-[0.35rem]">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
             class="inline min-w-[25px] min-h-[25px]"
             width="20px"
             height="20px"
           />
-        </button>
+        </button></a>
       </div>
     </div>
 </template>
