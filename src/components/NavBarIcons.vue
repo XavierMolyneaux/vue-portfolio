@@ -12,8 +12,9 @@
       </div>
   
       <div v-else-if="selectedIcon === 'gitSource'">
-        <a href="https://github.com/XavierMolyneaux" target="_blank" rel="noreferrer noopener">
-        <button class="border-black border-2 rounded-md p-[0.35rem]">
+        <a href="https://github.com/XavierMolyneaux/vue-portfolio" target="_blank" rel="noreferrer noopener">
+        <button
+          class="border-black border-2 rounded-md p-[0.35rem]">
           <img
             src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             class="inline min-w-[25px] min-h-[25px]"

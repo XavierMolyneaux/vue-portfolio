@@ -2,7 +2,7 @@
     <section class="inline-flex flex-row py-3 w-full shadow-md">
         <div class="flex">
             <h1 class="text-4xl font-bold underline ml-5">
-                <router-link to="/" @click="scrollTop">Xavier Molyneaux</router-link>
+                <router-link to="/" @click="scrollTop">Xavier</router-link>
             </h1>
         </div>
         <div class="text-2xl flex ml-10 pt-2">
