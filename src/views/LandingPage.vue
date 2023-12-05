@@ -1,33 +1,51 @@
 <template>
-    <Section>
-        <h1 class="text-4xl font-bold">Xavier Molynueax</h1>
-        <h3 class="text-lg">Full Stack Engineer</h3>
-    </Section>
-    <Section class="pt-4">
-        <h2 class="text-2xl font-bold underline ">Backgroud</h2>
-        <p></p>
-        <br/>
+    <div>
+        <!-- image, animated text or animated image. -->
+    </div>
+    <div class="flex flex-col gap-[2.5rem]">
+        <section>
+            <h1 class="text-4xl font-bold">Xavier Molynueax</h1>
+            <h3 class="text-lg">Full Stack Engineer</h3>
+        </section>
+        <section>
+            <h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8">Backgroud</h2>
+            <br/>
+            <p class="lg:text-lg text-sm lg:indent-8 md:indent-4 sm:indent-0">
+                With a robust 5-year professional background, Xavier has played a pivotal role in the success of 
+            various products and applications. Beyond my technical expertise, he brings to the table strong 
+            analytical and communication skills, allowing him to adeptly collect requirements, convert them into 
+            technical specifications, and efficiently communicate project progress to stakeholders.
+            </p>
+            <br/>
+            <p class="lg:text-lg text-sm lg:indent-8 md:indent-4 sm:indent-0">
+                Thriving in dynamic settings, Xavier is known for adaptability and a keen enthusiasm for continuous 
+                learning, ensuring he remains well-versed in the latest industry trends and technologies.
+            </p>
+        </section>
 
-        <h2 class="text-5xl font-bold underline">Timeline</h2>
-        <br/>
-        <ul>
-            <li v-for="(event, index) in eventData"
-                :key= "index"
-                class="list-disc list-inside">
-            </li>
-        </ul>
-    </Section>
+        <section>
+            <h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8">Bio</h2>
+            <br/>
+            <p class="lg:text-lg text-sm lg:indent-8 md:indent-4 sm:indent-0">
+                Born and raised in Austin Texas, with an Afro-Caribbean background, Xavier has a passion for
+                technology and creating a better future. Outside of his career, he spends his time traveling,
+                tending to his 30+ plants and living a holistic lifestyle.
+            </p>
+        </section>
+
+        <section>
+            <h2 class="lg:text-5xl text-lg font-bold underline underline-offset-8">Timeline</h2>
+            <br/>
+            <TimelineEvents/>
+        </section>
+    </div>
 </template>
 
 <script>
-import Events from '../components/TimelineEvents.vue';
+import TimelineEvents from '../components/TimelineEvents.vue';
 
 export default {
     name: 'LandingPage',
-    data() {
-        return {
-          eventData: Events
-        };  
-    }
+    components: {TimelineEvents}
 }
 </script>

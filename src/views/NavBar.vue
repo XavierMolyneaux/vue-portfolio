@@ -1,5 +1,5 @@
 <template>
-    <section class="inline-flex flex-row py-3 w-full shadow-md">
+    <section class="inline-flex flex-row py-3 w-full shadow-lg">
         <div class="flex">
             <h1 class="text-4xl font-bold underline ml-5">
                 <router-link to="/" @click="scrollTop">Xavier</router-link>
