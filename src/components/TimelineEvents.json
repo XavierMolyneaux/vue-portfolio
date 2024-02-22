@@ -1,12 +1,42 @@
 [
     {
-        "Title": "Test",
+        "Title": "Invited to Google CSSI at UT Dallas and deployed first application",
         "Timeframe": "2018",
-        "Tags": ["Python", "JavaScript"]
+        "Tags": ["Python", "Javascript", "HTML", "CSS", "Google App Engine"]
     },
     {
-        "Title": "Test1",
+        "Title": "Enrolled in Computer Science Degree at UT Dallas",
+        "Timeframe": "2018",
+        "Tags": ["C++", "Java", "Data Structures", "Functional Programming"]
+    },
+    {
+        "Title": "Joined a Waste Management SaaS startup contributing to web dev. and online presence",
+        "Timeframe": "2018",
+        "Tags": ["HTML/CSS", "SEO", "Tech Support", "SaaS"]
+    },
+    {
+        "Title": "Presented ML app UTD's ACM Projects that leanred/recognized Alphanumericals from videos",
         "Timeframe": "2019",
-        "Tags": ["Python", "VueJS"]
+        "Tags": ["Python", "Java", "MNIST", "TensorFlow"]
+    },
+    {
+        "Title": "Began heavily contributing to a Home Services SaaS startup through company acquisition",
+        "Timeframe": "2020",
+        "Tags": ["Python", "SQL/NoSQL", "AWS", "Docker", "CI/CD", "DevOps"]
+    },
+    {
+        "Title": "Automated an internationally sold upsell product focused on employee retention",
+        "Timeframe": "2021",
+        "Tags": ["Python", "MySQL", "CRONs", "ElasticSearch", "REST"]
+    },
+    {
+        "Title": "Developed a social scrapper that was contracted by 2 companies to support their sales teams",
+        "Timeframe": "2022",
+        "Tags": ["Python", "REST", "Sales", "HunterIO"]
+    },
+    {
+        "Title": "Further explored a more entrepreneurial mindset...",
+        "Timeframe": "2023",
+        "Tags": ["Loading..."]
     }
 ]

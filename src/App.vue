@@ -2,8 +2,6 @@
   <NavBar/>
   <div class="xl:px-[20rem] lg:px-[14rem] md:px-[10rem] sm:px-[7rem] px-[4rem]">
   <LandingPage/>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-  <!-- <Tags :tagSettings="['tag1', 'tag2', 'tag3', 'tag4']"/> -->
   </div>
 </template>
 
@@ -15,7 +13,6 @@ import LandingPage from './views/LandingPage.vue'
 export default {
   name: 'App',
   components: {
-    // Tags,
     NavBar,
     LandingPage
   }
