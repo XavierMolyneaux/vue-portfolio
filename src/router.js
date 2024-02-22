@@ -7,7 +7,6 @@ import ExperiencePage from './views/ExperiencePage.vue'
 import ProjectsPages from './views/ProjectsPage.vue'
 import ContactPage from './views/ContactPage.vue'
 
-
 // Define route components
 const routes = [
                {

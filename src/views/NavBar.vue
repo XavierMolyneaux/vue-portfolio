@@ -40,19 +40,19 @@ export default {
         const webRoutes = {
 			skills: {
 				title: 'Skills',
-				route: '/'
+				route: '/skills'
 			},
 			works: {
 				title: 'Experience',
-				route: '/'
+				route: '/experiences'
 			}, 
             projects: {
                 title: 'Projects',
-                route: '/'
+                route: '/projects'
             },
             contact: {
 				title: 'Contact',
-				route: '/'
+				route: '/contact'
 			}
 		};
 
