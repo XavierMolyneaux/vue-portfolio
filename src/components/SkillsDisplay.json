@@ -1,0 +1,76 @@
+[
+    {
+        "type": "Frontend",
+        "technologies": [
+            {
+                "title": "VueJS",
+                "image": "devicon-vuejs-plain"
+            },
+            {
+                "title": "Javascript",
+                "image": "devicon-javascript-plain"
+            },
+            {
+                "title": "Typescript",
+                "image": "devicon-typescript-plain"
+            },
+            {
+                "title": "React",
+                "image": "devicon-react-original"
+            },
+            {
+                "title": "Tailwind CSS",
+                "image": "devicon-tailwindcss-original"
+            }
+        ]
+    },
+    {
+        "type": "Backend",
+        "technologies": [
+            {
+                "title": "Python",
+                "image": "devicon-python-plain"
+            },
+            {
+                "title": "NodeJS",
+                "image": "devicon-nodejs-plain"
+            },
+            {
+                "title": "Java",
+                "image": "devicon-java-plain"
+            },
+            {
+                "title": "C++",
+                "image": "devicon-cplusplus-plain"
+            }
+        ]
+    },
+    {
+        "type": "Infrastructure",
+        "technologies": [
+            {
+                "title": "AWS",
+                "image": "devicon-amazonwebservices-plain-wordmark"
+            },
+            {
+                "title": "Docker",
+                "image": "devicon-docker-plain"
+            },
+            {
+                "title": "Redis",
+                "image": "devicon-redis-plain"
+            },
+            {
+                "title": "ElasticSearch",
+                "image": "devicon-elasticsearch-plain"
+            },
+            {
+                "title": "CircleCI",
+                "image": "devicon-circleci-plain"
+            },            {
+                "title": "Netlify",
+                "image": "devicon-netlify-plain"
+            }
+        ]
+    }
+]
