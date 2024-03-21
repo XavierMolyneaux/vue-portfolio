@@ -1,7 +1,7 @@
 <template>
   <NavBar/>
   <div class="mt-10 xl:px-[20rem] lg:px-[14rem] md:px-[10rem] sm:px-[7rem] px-[4rem]">
-  <router-view></router-view>
+    <router-view></router-view>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 # vue_portfolio
-Example idea found [here](https://vuejsexamples.com/kuon-portfolio-using-vue3-tailwindcss-threejs-and-animejs/)
+Inspiration: [here](https://vuejsexamples.com/\kuon-portfolio-using-vue3-tailwindcss-threejs-and-animejs/)
 
 ## Project setup
 ```
