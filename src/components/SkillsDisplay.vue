@@ -10,11 +10,14 @@
         </div>
 
         <div class="flex flex-row sm:flex-col"
-            v-for="(skills, index) in skillsData"
+            v-for="(skill, index) in skillsData"
             :key="index">
             <div class=""
-                v-if="skills.type == selectedSkill">
-                {{ skills.technologies }}
+                v-if="skill.type == selectedSkill">
+                <TechCards 
+                v-for="(tech, techIndex) in skill.technologies"
+                :key="techIndex"
+                :technology="tech"/>
             </div>
         </div>
     </section>
@@ -22,10 +25,11 @@
 
 <script>
 import SkillsData from './SkillsDisplay.json'
+import TechCards from './TechCards.vue';
 
 export default {
     name: 'SkillsDisplay',
-    components: {},        
+    components: {TechCards},        
     props: {
         skillTypes: {
             type: Array,
