@@ -1,10 +1,14 @@
 <template>
     <section class="flex flex-col mt-6 sm:flex-row">
         <div class="flex flex-row sm:flex-col">
-            <button class="px-4 py-3 selector-bg-hover left-border-one text-left text-lg sm:border-l-2 sm:border-b-0 border-l-0 border-b-2 transition ease-in-out delay-100 translate font-bold"
+            <button class="px-4 py-3 text-left text-lg sm:border-l-4 border-l-0 font-bold"
                 v-for="(skill, index) in skillTypes"
                 :key="index"
-                @click="currentSelectedTechnology(index)">
+                @click="currentSelectedTechnology(index)"
+                :class="
+                    selectedSkill === skill 
+                    ? 'animate-pulse border-blue-700' 
+                    : null">
                 {{ skill }}
             </button>
         </div>
@@ -12,7 +16,7 @@
         <div class="flex flex-row sm:flex-col"
             v-for="(skill, index) in skillsData"
             :key="index">
-            <div class=""
+            <div class="flex flex-wrap"
                 v-if="skill.type == selectedSkill">
                 <TechCards 
                 v-for="(tech, techIndex) in skill.technologies"

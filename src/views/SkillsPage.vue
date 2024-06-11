@@ -12,7 +12,7 @@
     </section> 
     <section>
         <h2 class="lg:text-2xl text-lg mt-10 font-bold underline underline-offset-8">Technology</h2>
-        <SkillsDisplay :skillTypes="types"/>
+        <SkillsDisplay class="shadow-2xl" :skillTypes="types"/>
     </section>
 </template>
 

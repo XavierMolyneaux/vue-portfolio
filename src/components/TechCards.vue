@@ -1,21 +1,10 @@
 <template>
-    <div>
-        <div class="selector py-1 pt-2 rounded-lg transition ease-in-out border-wrapper-hover"
-            @mouseenter="isHovering = true"
-            @mouseleave="
-            isHovering = false;
-            isClicked = false;"
-            @click="isClicked = !isClicked"
-            :class="
-                isClicked
-                ? 'icon-highlight border-2'
-                : 'paragraph-option'">
-            <div class="flex flex-col items-center gap-2 animate__animated animate__fadeIn animate__fast">
-                <i :class="technology.image" class="text-7xl" style="font-weight: normal" /><!--showing Size Of  0x0-->
-                <p class="font-bold whitespace-nowrap">
-                    {{ technology.title }}
-                </p>
-            </div>
+    <div class="py-1 hover:shadow-lg hover:rotate-6 w-[8rem] h-[6rem] hover:border-2">
+        <div class="flex flex-col items-center">
+            <i :class="technology.image" class="text-6xl" style="font-weight: normal" />
+            <p class="font-bold whitespace-nowrap">
+                {{ technology.title }}
+            </p>
         </div>
     </div>
 </template>
