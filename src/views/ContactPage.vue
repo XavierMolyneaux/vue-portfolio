@@ -1,6 +1,11 @@
 <template>
-    <p>Submission form for business inquiries, proposals, job opportunities or to discuss cool tech :).</p>
-    <ContactForm/>
+    <div class="text-center">
+        <p>
+            Submission form for business inquiries, proposals, job opportunities or to discuss cool tech :).
+        </p>
+        <br>
+        <ContactForm/>
+    </div>
 </template>
 
 <script>

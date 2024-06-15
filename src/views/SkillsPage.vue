@@ -2,17 +2,19 @@
     <section>
             <h2 class="lg:text-2xl text-lg font-bold underline underline-offset-8">Overview</h2>
             <br/>
-            <p class="lg:text-lg text-sm lg:indent-8 md:indent-4 sm:indent-0">
-                Xavier is a full stack engineer focused on Python, VueJS, SQL and AWS. He also possesses soft 
-                skills that greatly increase his value to any team. Being experienced with startup culture 
+            <p class="xl:text-lg text-base lg:indent-8 md:indent-4 sm:indent-0">
+                Xavier is a full stack engineer focused on Python, VueJS, SQL and AWS. He possesses soft 
+                skills that bring value to his personal, academic and career journeys. No stranger to startup culture 
                 (pre and post acquisition), Xavier thrives in different paced environments by maintaining 
-                cross functional communication, owning project deadlines and effectively taking constructive 
-                criticism.
+                cross functional communication, understanding business context behind developement,
+                owning project deadlines and effectively taking constructive criticism. Always striving to be 
+                the best version of himself has brought Xavier many opportunities to discover new and hone 
+                existing skills.
             </p>
     </section> 
     <section>
         <h2 class="lg:text-2xl text-lg mt-10 font-bold underline underline-offset-8">Technology</h2>
-        <SkillsDisplay class="shadow-2xl" :skillTypes="types"/>
+        <SkillsDisplay class="shadow-2xl" :skillTypes="types" />
     </section>
 </template>
 

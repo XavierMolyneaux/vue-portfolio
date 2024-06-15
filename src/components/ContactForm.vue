@@ -8,11 +8,11 @@
             </label>
         </p>
         <p>
-            <label>Your Name: <input type="text" name="name" /></label>
+            <label>Name: <input type="text" name="name" /></label>
         </p>
         <br>
         <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+            <label>Email: <input type="email" name="email" /></label>
         </p>
         <br>
         <p>

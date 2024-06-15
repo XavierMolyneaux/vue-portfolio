@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col mt-6 sm:flex-row">
+    <div class="flex flex-col mt-6 sm:flex-row">
         <div class="flex flex-row sm:flex-col">
             <button class="px-4 py-3 text-left text-lg sm:border-l-4 border-l-0 font-bold"
                 v-for="(skill, index) in skillTypes"
@@ -24,7 +24,7 @@
                 :technology="tech"/>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -55,15 +55,15 @@ export default {
 	methods: {
 		currentSelectedTechnology(index) {
 			switch (index) {
-			case 0:
-				this.selectedSkill = 'Frontend';
-				break;
-			case 1:
-				this.selectedSkill = 'Backend';
-				break;
-			case 2:
-				this.selectedSkill = 'Infrastructure';
-				break;
+                case 0:
+                    this.selectedSkill = 'Frontend';
+                    break;
+                case 1:
+                    this.selectedSkill = 'Backend';
+                    break;
+                case 2:
+                    this.selectedSkill = 'Infrastructure';
+                    break;
 			}
 		}
     }    

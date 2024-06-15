@@ -36,7 +36,9 @@
         <section>
             <h2 class="lg:text-5xl text-lg font-bold underline underline-offset-8">Timeline</h2>
             <br/>
-            <TimelineEvents/>
+            <div class="shadow-2xl px-3" >
+                <TimelineEvents/>
+            </div>
         </section>
     </div>
 </template>
