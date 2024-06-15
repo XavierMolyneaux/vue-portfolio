@@ -22,3 +22,5 @@ npm run lint
 
 ### TODOs
 1. Clean up styling; Only use tailwind styling when necessary.
+2. Optimze for mobile.
+3. Add useful images, specifically for projects page.

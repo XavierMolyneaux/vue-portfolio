@@ -31,3 +31,9 @@ export default {
     }    
 }
 </script>
+
+<style>
+.shadow-cust {
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% / 0.3);
+}
+</style>

@@ -1,13 +1,13 @@
 <template>
     <div class="flex flex-col mt-6 sm:flex-row">
         <div class="flex flex-row sm:flex-col">
-            <button class="px-4 py-3 text-left text-lg sm:border-l-4 border-l-0 font-bold"
+            <button class="px-4 py-3 text-left text-lg font-bold"
                 v-for="(skill, index) in skillTypes"
                 :key="index"
                 @click="currentSelectedTechnology(index)"
                 :class="
                     selectedSkill === skill 
-                    ? 'animate-pulse border-blue-700' 
+                    ? 'animate-pulse sm:border-l-4 border-blue-700' 
                     : null">
                 {{ skill }}
             </button>

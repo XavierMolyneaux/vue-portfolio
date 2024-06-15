@@ -10,7 +10,10 @@
                 a different vertical of the same company. The CEO, and personal mentor, of the company 
                 valued Xavier's maturity, leadership and critical thinking. When he found out that Xavier 
                 would be attending the University of Texas at Dallas to study Computer Science, he decided 
-                to offer him an opportunity to gain real life web and business development experience.   
+                to offer him an opportunity to gain real life web and business development experience. One 
+                of the earliest and most notable moments in Xavier's career was when he worked with a few 
+                other coworkers to renovate the CEO's personal barn into a “luxurious” office where many 12+ 
+                hour days were spent.
             </p>
             <br/>
             <p>

@@ -4,8 +4,12 @@
             <div
                 v-for="(topic, index) in topics"
                 :key="index">
-                <button class="border-2"
-                    @click="currentSelectedTopic(index)"> 
+                <button class="px-3 font-bold"
+                    @click="currentSelectedTopic(index)"
+                    :class="
+                    selectedTopic === topic 
+                    ? 'animate-pulse sm:border-b-4 border-blue-700' 
+                    : null"> 
                     {{ topic }}
                 </button>
             </div>
