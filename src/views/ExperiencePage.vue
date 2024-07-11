@@ -45,7 +45,7 @@ export default {
             topics: [
                 'Understanding Business Context', 
                 'Product Development', 
-                'Team Player', 
+                'Leadership',
                 'Critical Thinking & Execution'
             ]
         }

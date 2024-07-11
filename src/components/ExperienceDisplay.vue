@@ -17,10 +17,14 @@
         <div
             v-for="(data, index) in experienceData"
             :key="index">
-            <p class=""
+            <ul class="py-3 list-disc list-inside" 
                 v-if="data.title == selectedTopic">
-                {{ data.experiences }}
-            </p>
+                    <li class="xl:py-2 py-1"
+                        v-for="(experince, index) in data.experiences"
+                        :key="index">
+                            {{ experince }}
+                    </li>
+            </ul>
         </div>
     </div> 
 </template>
@@ -58,7 +62,7 @@ export default {
                     this.selectedTopic = 'Product Development';
                     break;
                 case 2:
-                    this.selectedTopic = 'Team Player';
+                    this.selectedTopic = 'Leadership';
                     break;
                 case 3:
                     this.selectedTopic = 'Critical Thinking & Execution';

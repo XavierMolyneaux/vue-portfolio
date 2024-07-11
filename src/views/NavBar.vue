@@ -46,10 +46,10 @@ export default {
 				title: 'Experience',
 				route: '/experiences'
 			}, 
-            projects: {
-                title: 'Projects',
-                route: '/projects'
-            },
+            // projects: {
+            //     title: 'Projects',
+            //     route: '/projects'
+            // },
             contact: {
 				title: 'Contact',
 				route: '/contact'

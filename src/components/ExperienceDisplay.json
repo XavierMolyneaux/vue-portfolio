@@ -1,18 +1,34 @@
 [
     {
         "title": "Understanding Business Context",
-        "experiences": ["1"]
+        "experiences": [
+            "Before pulseM could be acquired, I was tasked with creating more granular Access Control logic to protect client accounts, ultimately to comply with HIPAA. From the highest management level to the lowest technical detail, a key piece was understanding the acquiring company’s expectations/standards in relation to our legacy system during planning, implementation and testing phases.",
+            "pulseM not only focused on reputation management for its clients, but also their employee retention rates. We attempted to combat the industry issue with our Employee Rewards product, but I noticed the internal issues it was creating. I tasked myself with optimizing the technology and processes used to keep it running, ultimately reducing memory usage and manual overhead for the upsell product that distributed $20k+ rewards monthly.",
+            "Contributing to SiteSudo from 2018 to 2020 as a web developer and digital marketer, staying updated with industry standards and the clients’ requirements was crucial. Understanding this, I helped shape the SaaS platform many local/national Waste Management and Event Rental businesses trusted to propel them towards their goals."
+        ]
     },
     {
         "title": "Product Development",
-        "experiences": ["2"]
+        "experiences": [
+            "",
+            "",
+            ""
+        ]
     },
     {
-        "title": "Team Player",
-        "experiences": ["3"]
+        "title": "Leadership",
+        "experiences": [
+            "",
+            "",
+            ""
+        ]
     },
     {
         "title": "Critical Thinking & Execution",
-        "experiences": ["4"]
+        "experiences": [
+            "",
+            "",
+            ""
+        ]
     }
 ]
