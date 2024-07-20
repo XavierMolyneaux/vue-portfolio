@@ -2,33 +2,33 @@
     {
         "title": "Understanding Business Context",
         "experiences": [
-            "Before pulseM could be acquired, I was tasked with creating more granular Access Control logic to protect client accounts, ultimately to comply with HIPAA. From the highest management level to the lowest technical detail, a key piece was understanding the acquiring company’s expectations/standards in relation to our legacy system during planning, implementation and testing phases.",
-            "pulseM not only focused on reputation management for its clients, but also their employee retention rates. We attempted to combat the industry issue with our Employee Rewards product, but I noticed the internal issues it was creating. I tasked myself with optimizing the technology and processes used to keep it running, ultimately reducing memory usage and manual overhead for the upsell product that distributed $20k+ rewards monthly.",
-            "Contributing to SiteSudo from 2018 to 2020 as a web developer and digital marketer, staying updated with industry standards and the clients’ requirements was crucial. Understanding this, I helped shape the SaaS platform many local/national Waste Management and Event Rental businesses trusted to propel them towards their goals."
+            "Before pulseM could be acquired, Xavier was tasked with creating more granular Access Control logic to protect client accounts, ultimately to comply with HIPAA. From the highest management level to the lowest technical detail, a key piece was understanding the acquiring company’s expectations/standards in relation to the legacy system during planning, implementation and testing phases.",
+            "Contributing to SiteSudo from 2018 to 2020 as a web developer and digital marketer, staying updated with industry standards and the clients’ requirements was crucial. Understanding this, Xavier helped shape the SaaS platform many local/national Waste Management and Event Rental businesses trusted to propel them towards their goals.",
+            "pulseM not only focused on reputation management for its clients, but also the industry issue of poor employee retention rates. Attempting to combat this the Employee Rewards product was created, but Xavier noticed the internal issues it was creating. He tasked himself with optimizing the technology and processes used to keep it running, ultimately reducing memory usage and manual overhead for the upsell product that distributed $20k+ rewards monthly."
         ]
     },
     {
         "title": "Product Development",
         "experiences": [
-            "",
-            "",
-            ""
+            "The Employee Rewards upsell product offered by pulseM became Xavier’s pride and joy. It was time for a staff engineer to move up to a higher management level so Xavier jumped at the idea to own the product entirely. He was responsible for auditing, funding and distributing rewards to clients’ employees and upholding standards. Supporting the product on an international level became a major item in the roadmap. Xavier took an old POC and developed an MVP that satisfied the product demand of pulseM’s Canadian clients with the ability to support other currencies in the future.",
+            "Strategic integrations allowed pulseM to create valuable Reputation Management software that did not overwhelm existing workflows for home services companies. Continuous updates for authorization protocols, payload structures, and entire API reworks were required to remain valuable. Xavier was tasked with updating a legacy integration, initially processing XML data from a REST server, to concurrently support JSON from a GraphQL server. This led to the retention of all integrated clients, reduced manual data entry and improved security.",
+            "There was a growing demand for more granular analytic reporting coming from pulseM’s clients as well as internal stakeholders. Clients wanted more insight into the performance of their field technicians, departments and the perspective of homeowners they served; the Sales department wanted additional points when handling objections or competitor comparisons; the Customer Support department wanted tailored support strategies when working with a client. Xavier worked with 2 other engineers to create these automatic reports and exportable dashboards. The infrastructure developed during this project would also serve as the backbone for future client dashboards and improvements to the internal toolkit."
         ]
     },
     {
         "title": "Leadership",
         "experiences": [
-            "",
-            "",
-            ""
+            "In close collaboration with the CEO at SiteSudo, Xavier played a significant role in maintaining strong client relationships and directly managing SEO campaigns for over 22 clients. By understanding client requirements, expectations and industry standards, Xavier was able to tailor SEO strategies to deliver optimal results. Continuous monitoring, analysis, and adjustment of campaigns were responsibilities he welcomed in order to ensure value was the priority at every step of the customer journey.",
+            "Xavier played a pivotal role in ensuring the support and engineering teams were equipped to handle their responsibilities efficiently. By onboarding/training new team members on the domain of pulseM, Xavier imparted technical standards, debugging strategies, and industry specific knowledge during KT sessions. Xavier's efforts ensured that the teams were not only technically proficient but also aligned with the company’s mission and values.",
+            "Xavier eventually owned pulseM's deployment process primarily utilizing AWS, Docker and his applied understanding of distributed systems. By leveraging monitoring tools, Xavier ensured that deployments were smooth, efficient, and reliable. In the event of failures, Xavier led the triage to quickly determine severity and execute necessary rollbacks. This proactive approach minimized downtime and ensured that the system remained robust and responsive. Xavier’s ownership of the deployment process was critical to maintaining operational continuity and delivering high-quality services."
         ]
     },
     {
         "title": "Critical Thinking & Execution",
         "experiences": [
-            "",
-            "",
-            ""
+            "Xavier leveraged his critical thinking and execution skills to optimize the existing infrastructure using Python, SQL, and Vue. By conducting a thorough analysis of reporting analytics, data synchronization, and dashboard performance, Xavier pinpointed inefficiencies and implemented strategic enhancements. These improvements led to a 50% increase in dashboard load speed specifically for franchise clients, showcasing Xavier’s technical expertise and understanding of system architecture. His ability to diagnose and address performance bottlenecks resulted in a more responsive and efficient analytics platform.",
+            "There was an issue within pulseM that resulted in inefficient approaches to sales cold lead generation Xavier noticed. By developing an advanced web scraping tool targeting high-level executives like CEOs and CTOs, Xavier ensured the acquisition of valuable leads from social media platforms. His strategic planning and precise execution enabled the software to accurately gather and process critical data, streamlining the lead generation process. This innovation not only improved the efficiency of the sales team but also provided actionable insights that drove business growth.",
+            "In the early startup days of pulseM not all code was cared for the same, resulting in various major/minor alerting errors. After experiencing the on call rotations and error management for some time Xavier became bothered enough to do something about it. Pieces of the system were targeted. Faced with over 300,000 error logs monthly, Xavier conducted a detailed analysis to identify and rectify the root causes. By coordinating with a team of four engineers, he ensured an organized and effective approach to error mitigation. This proactive strategy not only lowered operational expenses but also enhanced the reliability and performance of the systems. Xavier’s keen insight and execution in addressing system vulnerabilities were instrumental in maintaining stable and efficient business operations."
         ]
     }
 ]
