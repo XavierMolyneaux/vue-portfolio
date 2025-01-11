@@ -1,42 +1,47 @@
 [
     {
-        "Title": "Invited to Google CSSI at UT Dallas and deployed first application",
+        "Title": "Invited to Google CSSI at UT Dallas and deployed first application, an employee time/salary tracker",
         "Timeframe": "2018",
         "Tags": ["Python", "Javascript", "HTML", "CSS", "Google App Engine"]
     },
     {
-        "Title": "Enrolled in Computer Science Degree at UT Dallas",
+        "Title": "Enrolled at UT Dallas studying computer science",
         "Timeframe": "2018",
         "Tags": ["C++", "Java", "Data Structures", "Functional Programming"]
     },
     {
-        "Title": "Joined a Waste Management SaaS startup contributing to web dev. and online presence",
+        "Title": "Joined SiteSudo as a web developer and online marketer while balancing multiple hats in the startup environment",
         "Timeframe": "2018",
         "Tags": ["HTML/CSS", "SEO", "Tech Support", "SaaS"]
     },
     {
-        "Title": "Presented ML app UTD's ACM Projects that leanred/recognized Alphanumericals from videos",
+        "Title": "Presented a ML app at UTD's ACM Projects that translated Alphanumericals from live video into text",
         "Timeframe": "2019",
         "Tags": ["Python", "Java", "MNIST", "TensorFlow"]
     },
     {
-        "Title": "Began heavily contributing to a Home Services SaaS startup through company acquisition",
+        "Title": "Joined pulseM as the 14th employee. With the title of Software Engineer, he contributed to the home services company pre and post acquisition",
         "Timeframe": "2020",
-        "Tags": ["Python", "SQL/NoSQL", "AWS", "Docker", "CI/CD", "DevOps"]
+        "Tags": ["Python", "SQL/NoSQL", "AWS", "Docker", "DevOps"]
     },
     {
-        "Title": "Automated an internationally sold upsell product focused on employee retention",
+        "Title": "Automated a pulseM product focused on employee retention; Reduced overhead and allowed for sales in other countries",
         "Timeframe": "2021",
-        "Tags": ["Python", "MySQL", "CRONs", "ElasticSearch", "REST"]
+        "Tags": ["Python", "CRONs", "ElasticSearch", "REST"]
     },
     {
-        "Title": "Developed a social scrapper that was contracted by 2 companies to support their sales teams",
+        "Title": "Developed a web scraper that was contracted by 2 companies to support their sales teams",
         "Timeframe": "2022",
         "Tags": ["Python", "REST", "Sales", "HunterIO"]
     },
     {
-        "Title": "Further explored a more entrepreneurial mindset...",
+        "Title": "Started CargoFinity intended to inovate software for the trucking industry",
         "Timeframe": "2023",
-        "Tags": ["Loading..."]
+        "Tags": ["Entrepreneurship", "SaaS"]
+    },
+    {
+        "Title": "Graduated from UT Dallas with a B.S in Computer Science",
+        "Timeframe": "2024",
+        "Tags": ["Leadership", "Problem Solving", "Teamwork"]
     }
 ]
